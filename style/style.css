@@ -3,6 +3,25 @@ body {
   font-family: "Kumbh Sans", serif;
 }
 
+.pattern-top {
+  position: fixed;
+  overflow: hidden;
+  z-index: -1;
+  top: -500px;
+  bottom: 100px;
+  right: 770px;
+}
+
+.pattern-bottom {
+  position: fixed;
+  overflow: hidden;
+  right: 300px;
+  bottom: 500px;
+  z-index: -1;
+  left: 770px;
+  top: 310px;
+}
+
 ul {
   list-style: none;
 }
